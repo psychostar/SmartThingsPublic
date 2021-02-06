@@ -141,7 +141,7 @@ metadata {
 			state "default", label: "", action: "refresh.refresh", icon: "st.secondary.refresh"
 		}
 
-		controlTile("colorTempSliderControl", "device.colorTemperature", "slider", width: 4, height: 2, inactiveLabel: false, range: "(2700..6500)") {
+		controlTile("colorTempSliderControl", "device.colorTemperature", "slider", width: 4, height: 2, inactiveLabel: false, range: "(2000..6500)") {
 			state "colorTemperature", action: "color temperature.setColorTemperature"
 		}
 		valueTile("colorName", "device.colorName", inactiveLabel: false, decoration: "flat", width: 2, height: 2) {
